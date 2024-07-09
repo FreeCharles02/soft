@@ -1,33 +1,84 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+strong.strg {
+ position: fixed;
+ top: 800px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.sidebar {
+  position: absolute;
+  top: 40px;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+div.name h1 {
+position: relative;
+right: -205px;
+top: 65px;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+Input.search-bar {
+  position: absolute;
+  right: 100px;
+  top: 100px;
+}
+
+.topbar p {
+  position: relative;
+  right: -205px;
+  top: 35px
+}
+
+.topbar button {
+  position: relative;
+  right: -1745px;
+  top: -29px;
+}
+
+.topbar div.pages {
+  position: absolute;
+  right: 1175px;
+  
+}
+
+.topbar div.pages a.gen {
+  position: absolute;
+  left: -450px;
+}
+
+.topbar div.pages a.sec {
+  position: absolute;
+  left: -380px;
+}
+
+.topbar div.pages a.bill {
+  position: absolute;
+  left: -305px;
+}
+
+.topbar div.pages a.notif {
+  position: absolute;
+  left: -245px;
+
+}
+
+.topbar div.pages a.app {
+  position: absolute;
+  left: -135px;
+}
+
+.topbar div.pages a.brand {
+  position: absolute; 
+  left: -80px;
+}
+
+.topbar div.pages a.refer {
+  position: absolute;
+}
+
+.topbar div.pages a.share {
+  position: absolute;
+  right: -115px;
+}
+
+.topbar div.pages p.security {
+  position: relative;
+    left: -425px;
 }
