@@ -1,6 +1,6 @@
 
 
-import Home from '../page'
+import Home from './page'
 export default function RootLayout({ children }) {
   return (
      <html>
